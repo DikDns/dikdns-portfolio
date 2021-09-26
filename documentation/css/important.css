@@ -1,0 +1,18 @@
+/*! Class For the function button language to Run */
+.show-the-link {
+    /** showing the list of language and clickable it */
+    pointer-events:all;
+    opacity: 1;
+}
+
+/*! Class for the hamburger menu to slide down */
+.nav-link.slide {
+    opacity: 1;
+    transform: translateX(0);
+}   
+
+/*! CLASS FOR THE ARROW TO ANIMATE */
+.arrow-icon.arrow-rotate {
+    /* Change direction of arrow icons when focused */
+    transform: rotate(90deg);
+}

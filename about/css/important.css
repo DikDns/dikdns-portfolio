@@ -1,0 +1,29 @@
+/*! To make it show bellow navbar that height 50px */
+.main {
+    padding-top: 50px;
+}
+
+/*! Class For the function button language to Run */
+.show-the-link {
+    /** showing the list of language and clickable it */
+    pointer-events:all;
+    opacity: 1;
+}
+
+/*! Class for the hamburger menu to slide down */
+.nav-link.slide {
+    opacity: 1;
+    transform: translateY(0);
+}   
+
+/*! Class for the first main-section */
+.main-section:first-child {
+    min-height: 550px;
+    padding: 64px 0 128px 0;
+}
+
+/*! CLASS FOR THE ARROW TO ANIMATE */
+.arrow-icon.arrow-rotate {
+    /* Change direction of arrow icons when focused */
+    transform: rotate(90deg);
+}

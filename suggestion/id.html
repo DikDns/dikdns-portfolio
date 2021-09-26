@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kirim saran tentang game atau apapun kepada DikDns">
+    <meta name="keywords" content="dikdns, portfolio, page, wild, rift, osu!, minecraft, java, edition">
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Usulkan ke DikDns" />
+    <meta property="og:description" content="Kirim saran tentang game atau apapun kepada DikDns!" />
+    <meta property="og:url" content="https://dikdns.github.io/suggestion/id" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://dikdns.github.io/documentation/img/banner/current-banner.jpg" />
+    <meta property="og:image:secure_url" content="https://dikdns.github.io/documentation/img/banner/current-banner.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta property="og:image:alt" content="DikDns Banner" />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dikdns.github.io/documentation/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dikdns.github.io/documentation/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dikdns.github.io/documentation/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://dikdns.github.io/documentation/favicon/site.webmanifest">
+
+    <title>DikDns — Suggestion</title>
+
+    <!-- CSS RESET -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/important.css">
+
+    <!-- AwesomeFonts Kit Code -->
+    <script src="https://kit.fontawesome.com/89851fc4a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav id="nav" class="nav">
+
+    <div class="nav-box">
+        <div class="nav-header">
+            <h2>Usulan</h2>
+        </div>
+
+        <div class="nav-lang">
+            <div class="lang-dropdown">
+                <button class="lang-button"><i class="fas fa-globe"></i> Id <i class="fas fa-caret-right arrow-icon"></i></button>
+                <div class="list">
+                    <a class="list-item" href="/suggestion">English</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="nav-link">
+        <ul>
+            <li class="link">
+                <a href="/id">
+                    <i class="icons fas fa-house-user"></i>
+                    <p class="link-desc">Beranda</p>
+                </a>
+            </li>
+            <li class="link">
+                <a href="/about/id">
+                    <i class="icons fas fa-info-circle"></i>
+                    <p class="link-desc">Tentang</p>
+                </a>
+            </li>
+            <li  class="link">
+                <a href="/suggestion/id">
+                    <i class="icons fas fa-comment-alt"></i>
+                    <p class="link-desc">Usulan</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="nav-menu-toggle">
+        <input class="btn-toggle" type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</nav>
+
+
+
+    <main id="main" class="main">
+        <h2 class="title-section">Usulan Gim?</h2>
+        <p class="desc-section">Sebenarnya tulis saja apa yang kamu mau, meskipun itu tidak berhubungan dengan hal permainan video.</p>
+
+        <form name="submit-to-google-sheet" id="form" class="form">
+            <div class="form-group">
+                <input class="form-control" name="username" id="username" type="text" placeholder="Nama Pengguna" required>
+            </div>
+
+            <div class="form-group">
+                <textarea class="form-control input-textarea" name="suggestion" id="suggestion" placeholder="Usulkan disini"></textarea>
+            </div>
+
+            <div class="form-group">
+                <button class="form-control submit" id="submit" type="submit">Kirim</button>
+            </div>
+        </form>
+
+    </main>
+
+    <!-- Submit Form STATUS -->
+    <section class="form-status" id="form-status">
+        <div class="box-form-status">
+            <div class="status on" id="loading">
+                <i class="icons fas fa-circle-notch"></i> 
+                <p class="desc-status">Mengirim...</p>
+            </div>
+            <div class="status" id="positive">
+                <i style="color: lime;" class="icons fas fa-check-square"></i> 
+                <p class="desc-status">Terima kasih! Kalimat kamu telah terkirim!</p>
+            </div>
+            <div class="status" id="negative">
+                <i style="color: red;" class="icons fas fa-exclamation-circle"></i> 
+                <p class="desc-status">Tidak terkirim!</p>
+                <p class="error-status"></p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="footer" class="footer">
+        <section class="footer-section footer-copyright">
+            <p class="desc-footer">This is a non-profit project, all of those image are copyright to it's own source.</p>
+            <p class="desc-footer">Copyright &copy; DikDns Project 2021 | Built by <a href="/andika-eka-kurnia/id">Andika Eka Kurnia</a></p>
+        </section>
+        <section class="footer-section footer-link">
+            <a target="_blank" href="https://twitter.com/dik_dns" class="link">Twitter <i class="fab fa-twitter-square"></i></a>
+            <a target="_blank" href="https://www.instagram.com/dikdns/" class="link">Instagram <i class="fab fa-instagram-square"></i></a>
+            <a target="_blank" href="mailto:dikdnssocial@gmail.com" class="link">Send Email <i class="far fa-paper-plane"></i></a>
+            <a href="/id" class="link">Home <i class="fas fa-house-user"></i></a>
+            <a href="/about/id" class="link">About <i class="fas fa-info-circle"></i></a>
+            <a href="/andika-eka-kurnia/id" class="link">Andika Eka Kurnia <i class="fas fa-user-circle"></i></a>
+            <a href="/documentation/id" class="link">Documentation <i class="fas fa-book"></i></a>
+            <a href="#" class="link">Top Page <i class="fas fa-angle-double-up"></i></a>
+        </section>
+        <!-- <i class="fas fa-house-user"></i> -->
+        <section class="footer-section footer-version">
+            <p>Version 1.2</p>
+        </section>
+    </footer>
+
+    <!-- MY JS -->
+    <script src="js/script.js"></script>    
+    <script src="js/form-submit.js"></script>
+</body>
+</html>
