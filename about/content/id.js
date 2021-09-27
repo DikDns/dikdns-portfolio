@@ -1,58 +1,19 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="dikdns, portfolio, page, andika, eka, kurnia">
-    <meta name="description" content="Merupakan salah satu halaman dari DikDns yang memuat info lengkapnya!">
-
-
-    <!-- OpenGraph -->
-    <meta property="og:title" content="Mengenal DikDns" />
-    <meta property="og:description" content="Merupakan salah satu halaman dari DikDns yang memuat info lengkapnya!" />
-    <meta property="og:url" content="https://dikdns.github.io/about/id" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://dikdns.github.io/documentation/img/banner/current-banner.jpg" />
-    <meta property="og:image:secure_url" content="https://dikdns.github.io/documentation/img/banner/current-banner.jpg" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="627" />
-    <meta property="og:image:alt" content="DikDns Banner" />
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://dikdns.github.io/documentation/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://dikdns.github.io/documentation/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://dikdns.github.io/documentation/favicon/favicon-16x16.png">
-    <link rel="manifest" href="https://dikdns.github.io/documentation/favicon/site.webmanifest">
-
-    <title>DikDns — About</title>
-
-    <!-- CSS RESET -->
-    <link rel="stylesheet" href="css/reset.css">
-
-    <!-- MY CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/important.css">
-
-    <!-- AwesomeFonts Kit Code -->
-    <script src="https://kit.fontawesome.com/89851fc4a2.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
+// HTML Page Object
+const IndonesiaPage = {
+    // NAV SECTION
+    nav: `<!-- NAV SECTION -->
     <nav id="nav" class="nav">
 
         <div class="nav-box">
             <div class="nav-header">
-                <h2>Tentang</h2>
+                <h2>DikDns</h2>
             </div>
 
             <div class="nav-lang">
                 <div class="lang-dropdown">
                     <button class="lang-button"><i class="fas fa-globe"></i> Id <i class="fas fa-caret-right arrow-icon"></i></button>
                     <div class="list">
-                        <a class="list-item" href="/about">English</a>
+                        <a id="lang" class="list-item switch-lang" href="#">English</a>
                     </div>
                 </div>
             </div>
@@ -61,19 +22,19 @@
         <div class="nav-link">
             <ul>
                 <li class="link">
-                    <a href="/id">
+                    <a href="../">
                         <i class="icons fas fa-house-user"></i>
                         <p class="link-desc">Beranda</p>
                     </a>
                 </li>
                 <li class="link">
-                    <a href="/about/id">
+                    <a href="/about">
                         <i class="icons fas fa-info-circle"></i>
                         <p class="link-desc">Tentang</p>
                     </a>
                 </li>
                 <li  class="link">
-                    <a href="/suggestion/id">
+                    <a href="/suggestion">
                         <i class="icons fas fa-comment-alt"></i>
                         <p class="link-desc">Usulan</p>
                     </a>
@@ -89,9 +50,9 @@
         </div>
 
     </nav>
-
-
-
+    `,
+    // MAIN SECTION
+    main: `<!-- MAIN SECTION -->
     <main id="main" class="main">
 
         <section class="main-section section-background">
@@ -137,38 +98,47 @@
                 <li class="timeline"><strong>2021</strong> – <i class="fas fa-scroll"></i> Dia sangat penasaran tentang MMORPG, dan sekali lagi ia mencoba yang lainnya. Toram Online.</li>
                 <li class="timeline"><strong>2021</strong> – <i class="fas fa-dice-d6"></i> Minecraft: Java Edition rilis pembaharuan Nether dan bocah itu membelinya.</li>
                 <li class="timeline"><strong>2021</strong> – <i class="fas fa-music"></i> Dia sekarang paham bagaimana gim ritme berfungsi dan menjadi pemain level menengah di <a target="_blank" href="https://osu.ppy.sh/home">Osu!</a></li>
-                <li class="timeline"><strong>NOW</strong> – <i class="icons fas fa-dharmachakra"></i> Wah, kamu masih disini??? Makasih! Saat ini dia sering online di Honkai Impact 3rd.</li>
+                <li class="timeline"><strong>2021</strong> – <i class="icons fas fa-dharmachakra"></i> Dia telah sangat fokus di Honkai Impact 3rd karena teman dekatnya.</li>
+                <li class="timeline"><strong>NOW</strong> – <i class="icons fas fa-clock"></i> Wah, kamu masih disini??? Makasih! Sayangnya, dia masih luring untuk beberapa tahun dari hari pertama di bulan Oktober, 2021 ini.</li>
             </ul>
             <p class="desc-section">Klik <a href="/documentation/id">disini</a> untuk melihat dokumentasi setiap gim yang dia pernah mainkan.</p>
         </section>
-
-
     </main>
-
-
-
+    `,
+    // FOOTER SECTION
+    footer: `<!-- FOOTER SECTION -->
     <footer id="footer" class="footer">
         <section class="footer-section footer-copyright">
             <p class="desc-footer">This is a non-profit project, all of those image are copyright to it's own source.</p>
-            <p class="desc-footer">Copyright &copy; DikDns Project 2021 | Built by <a href="/andika-eka-kurnia/id">Andika Eka Kurnia</a></p>
+            <p class="desc-footer">Copyright &copy; DikDns Project 2021 | Built by <a href="/andika-eka-kurnia">Andika Eka Kurnia</a></p>
         </section>
         <section class="footer-section footer-link">
             <a target="_blank" href="https://twitter.com/dik_dns" class="link">Twitter <i class="fab fa-twitter-square"></i></a>
             <a target="_blank" href="https://www.instagram.com/dikdns/" class="link">Instagram <i class="fab fa-instagram-square"></i></a>
             <a target="_blank" href="mailto:dikdnssocial@gmail.com" class="link">Send Email <i class="far fa-paper-plane"></i></a>
-            <a href="../id" class="link">Home <i class="fas fa-house-user"></i></a>
-            <a href="/suggestion/id" class="link">Suggestion <i class="fas fa-comment-alt"></i></a>
-            <a href="/andika-eka-kurnia/id" class="link">Andika Eka Kurnia <i class="fas fa-user-circle"></i></a>
-            <a href="/documentation/id" class="link">Documentation <i class="fas fa-book"></i></a>
+            <a href="../" class="link">Home <i class="fas fa-house-user"></i></a>
+            <a href="/suggestion" class="link">Suggestion <i class="fas fa-comment-alt"></i></a>
+            <a href="/andika-eka-kurnia" class="link">Andika Eka Kurnia <i class="fas fa-user-circle"></i></a>
+            <a href="/documentation" class="link">Documentation <i class="fas fa-book"></i></a>
             <a href="#" class="link">Top Page <i class="fas fa-angle-double-up"></i></a>
         </section>
-        <!-- <i class="fas fa-house-user"></i> -->
         <section class="footer-section footer-version">
-            <p>Version 1.2</p>
+            <p>Patch 2.0</p>
         </section>
     </footer>
+    `,
 
-    <script src="js/script.js"></script>
-    
-</body>
-</html>
+    js: `
+    <script src="js/main.js"></script>
+    `
+
+};
+
+
+
+const pageId = `
+${IndonesiaPage.nav}
+${IndonesiaPage.main}
+${IndonesiaPage.footer}
+${IndonesiaPage.js}
+`;
