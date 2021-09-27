@@ -86,10 +86,11 @@ const IndonesiaPage = {
     `,
     // FOOTER SECTION
     footer: `<!-- FOOTER SECTION -->
+    <!-- FOOTER SECTION -->
     <footer id="footer" class="footer">
         <section class="footer-section footer-copyright">
             <p class="desc-footer">This is a non-profit project, all of those image are copyright to it's own source.</p>
-            <p class="desc-footer">Copyright &copy; DikDns Project 2021 | Built by <a href="/andika-eka-kurnia">Andika Eka Kurnia</a></p>
+            <p class="desc-footer">Copyright &copy; DikDns Project 2021 | Built by <a href="https://dikdns.github.io/andika-eka-kurnia">Andika Eka Kurnia</a></p>
         </section>
         <section class="footer-section footer-link">
             <a target="_blank" href="https://twitter.com/dik_dns" class="link">Twitter <i class="fab fa-twitter-square"></i></a>
@@ -97,7 +98,7 @@ const IndonesiaPage = {
             <a target="_blank" href="mailto:dikdnssocial@gmail.com" class="link">Send Email <i class="far fa-paper-plane"></i></a>
             <a href="../" class="link">Home <i class="fas fa-house-user"></i></a>
             <a href="/about" class="link">About <i class="fas fa-info-circle"></i></a>
-            <a href="/andika-eka-kurnia" class="link">Andika Eka Kurnia <i class="fas fa-user-circle"></i></a>
+            <a href="/suggestion" class="link">Suggestion <i class="fas fa-comment-alt"></i></a>
             <a href="/documentation" class="link">Documentation <i class="fas fa-book"></i></a>
             <a href="#" class="link">Top Page <i class="fas fa-angle-double-up"></i></a>
         </section>
