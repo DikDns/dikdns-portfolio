@@ -1,45 +1,7 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Memuat semua file yang DikDns butuhkan!">
-    <meta name="keywords" content="dikdns, portfolio, page, wild, rift, osu!, minecraft, java, edition">
-
-    <!-- OpenGraph -->
-    <meta property="og:title" content="DikDns File Documentation" />
-    <meta property="og:description" content="Memuat semua file yang DikDns butuhkan!" />
-    <meta property="og:url" content="https://dikdns.github.io/documentation/id" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://dikdns.github.io/documentation/img/banner/current-banner.jpg" />
-    <meta property="og:image:secure_url" content="https://dikdns.github.io/documentation/img/banner/current-banner.jpg" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="627" />
-    <meta property="og:image:alt" content="DikDns Banner" />
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://dikdns.github.io/documentation/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://dikdns.github.io/documentation/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://dikdns.github.io/documentation/favicon/favicon-16x16.png">
-    <link rel="manifest" href="https://dikdns.github.io/documentation/favicon/site.webmanifest">
-
-    <title>DikDns — File Documentation</title>
-
-    <!-- Reset -->
-    <link rel="stylesheet" href="css/reset.css">
-
-    <!-- My CSS Links -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/important.css">
-
-    <!-- AwesomeFonts Kit Code -->
-    <script src="https://kit.fontawesome.com/89851fc4a2.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <!-- NAV -->
+// HTML Page Object
+const EnglishPage = {
+    // NAV SECTION
+    nav: `<!-- NAV SECTION -->
     <nav id="nav" class="nav">
 
         <div class="nav-box">
@@ -49,9 +11,9 @@
 
             <div class="nav-lang">
                 <div class="lang-dropdown">
-                    <button class="lang-button"><i class="fas fa-globe"></i> Id <i class="fas fa-caret-right arrow-icon"></i></button>
+                    <button class="lang-button"><i class="fas fa-globe"></i> En <i class="fas fa-caret-right arrow-icon"></i></button>
                     <div class="list">
-                        <a class="list-item" href="/documentation">English</a>
+                        <a class="list-item switch-lang" href="#">Bahasa Indonesia</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +34,7 @@
                 <a class="item" href="#toram-online">Toram Online</a>
                 <a class="item" href="#voez">VOEZ</a>
                 <a class="item" href="#logo">DikDns Logo</a>
-                <a class="item" href="#banner">DikDns Banner</a>
+                <a class="item" href="#offline">DikDns Offline</a>
                 <a class="item" href="#andika-eka-kurnia">Andika Eka Kurnia</a>
             </div>
         </div>
@@ -85,67 +47,60 @@
         </div>
 
     </nav>
-
-
-
-
-
-
-
-
-
-    <!-- MAIN CONTENT -->
+    `,
+    // MAIN SECTION
+    main: `<!-- MAIN SECTION -->
     <main class="main" id="main">
 
         <section id="dragon-raja" class="main-section">
             <h2 class="title-section">Dragon Raja</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/dragon-raja/screenshot-guildmember-1.jpg" alt="DikDns Dragon Raja Guild Screenshot Image" >
-                <p class="description-image">DikDns dan teman - teman satu klubnya. Gambar ini diambil sebelum klub kita 'AEROVERO' bubar dan menggabungkan diri dengan 'KopiShop'.</p>
+                <p class="description-image">DikDns and his Clubmates. This image was taken before our Club 'AEROVERO' disband and merge into 'KopiShop'.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/dragon-raja/screenshot-house-1.jpg" alt="DikDns Dragon Raja Housing Screenshot Image" >
-                <p class="description-image">DikDns berdiri di depan rumahnya setelah selesai mendekorasikan pintu masuk.</p>
+                <p class="description-image">DikDns standing in front of his House after finished decorating the entrance.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/dragon-raja/screenshot-profile-1.jpg" alt="DikDns Dragon Raja Profile Screenshot Image" >
-                <p class="description-image">DikDns menampilkan isi tasnya, termasuk nilai karakter, peralatan, dan barang - barang.</p>
+                <p class="description-image">DikDns showing his inventory, including ratings, equipments, and items.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/dragon-raja/screenshot-soulmate-1.jpg" alt="DikDns Dragon Raja Soulmate Screenshot Image" >
-                <p class="description-image">DikDns dan belahan jiwanya, Anitta.</p>
+                <p class="description-image">DikDns and his soulmate, Anitta.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/dragon-raja/screenshot-tokyotower-1.jpg" alt="DikDns Dragon Raja Tokyo Tower Screenshot Image" >
-                <p class="description-image">DikDns bermain piano di dalam menara tokyo.</p>
+                <p class="description-image">DikDns playing piano inside the tokyo tower.</p>
             </div>
         </section>
-        
+
 
 
         <section id="honkai-impact-3rd"  class="main-section">
             <h2 class="title-section">Honkai Impact 3rd</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/honkai-impact-3rd/screenshot-profile-1.jpg" alt="DikDns Honkai Impact 3rd Profile Screenshot" >
-                <p class="description-image">DikDns profil akun utamanya.</p>
+                <p class="description-image">DikDns main account profile.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/honkai-impact-3rd/highlight-openworld-1.gif" alt="DikDns Honkai Impact 3rd Short Gameplay GIF" >
-                <p class="description-image">DikDns bermain di fase open world.</p>
+                <p class="description-image">DikDns playing the open world stage.</p>
             </div>
         </section>
-
+        
 
 
         <section id="wild-rift"  class="main-section">
             <h2 class="title-section">League of Legends: Wild Rift</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/wild-rift/screenshot-profile-1.jpg" alt="DikDns Wild Rift Profile Screenshot" >
-                <p class="description-image">DikDns profil akun utamanya.</p>
+                <p class="description-image">DikDns main account profile.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/wild-rift/highlight-darius-1.gif" alt="DikDns Wild Rift Short Gameplay GIF" >
-                <p class="description-image">DikDns bermain menggunakan Darius.</p>
+                <p class="description-image">DikDns play using Darius.</p>
             </div>
         </section>
 
@@ -155,19 +110,19 @@
             <h2 class="title-section">Mobile Legends: Bang Bang</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/mobile-legends/screenshot-profile-1.jpg" alt="DikDns Mobile Legends" >
-                <p class="description-image">DikDns profil akun utamanya.</p>
+                <p class="description-image">DikDns main account profile.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/mobile-legends/screenshot-profile-2.jpg" alt="DikDns Mobile Legends" >
-                <p class="description-image">DikDns profil akun keduanya.</p>
+                <p class="description-image">DikDns second account profile.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/mobile-legends/screenshot-profile-3.jpg" alt="DikDns Mobile Legends" >
-                <p class="description-image">DikDns profil akun kedua bagian hero favoritnya.</p>
+                <p class="description-image">DikDns second account profile on the favorite hero page.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/mobile-legends/screenshot-tier-1.jpg" alt="DikDns Mobile Legends" >
-                <p class="description-image">DikDns akun kedua ketika mencapai mythic untuk pertama kalinya.</p>
+                <p class="description-image">DikDns second account first time achieve mythic.</p>
             </div>
         </section>
 
@@ -177,11 +132,11 @@
             <h2 class="title-section">Minecraft: Java Edition</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/minecraft-java-edition/screenshot-fallenkingdom-1.jpg" alt="DikDns Minecraft Screenshot on the Fallen Kingdom Server" >
-                <p class="description-image">DikDns bermain di Server Fallen Kingdom memamerkan singgasananya.</p>
+                <p class="description-image">DikDns playing in the Fallen Kingdom Server showing of his throne.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/minecraft-java-edition/highlight-fallenkingdom-1.gif" alt="DikDns Minecraft Short Gameplay GIF" >
-                <p class="description-image">DikDns bermain di Server Fallen Kingdom sekaligus menyapa kamu.</p>
+                <p class="description-image">DikDns playing in the Fallen Kingdom Server while say hello to you.</p>
             </div>
         </section>
 
@@ -191,11 +146,11 @@
             <h2 class="title-section">Osu!</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/osu/screenshot-profile-1.jpg" alt="DikDns Osu! Profile Screenshot" >
-                <p class="description-image">Halaman profil Osu! DikDns, kamu bisa klik <a href="https://osu.ppy.sh/users/20699317" target="_blank">disini</a> untuk lihat sendiri.</p>
+                <p class="description-image">DikDns Osu! profile page, you can click <a href="https://osu.ppy.sh/users/20699317" target="_blank">here</a> to see it by your self.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/osu/highlight-kokoronashi-1.gif" alt="DikDns Osu! Short Gameplay GIF" >
-                <p class="description-image">DikDns bermain salah satu beatmap favoritnya <a href="https://osu.ppy.sh/beatmapsets/565432#osu/1263932" target="_blank">Hanatan - Kokoronashi mapped by pishifat</a>.</p>
+                <p class="description-image">DikDns playing one of his favorite beatmap <a href="https://osu.ppy.sh/beatmapsets/565432#osu/1263932" target="_blank">Hanatan - Kokoronashi mapped by pishifat</a>.</p>
             </div>
         </section>
 
@@ -205,15 +160,15 @@
             <h2 class="title-section">PlayerUnknown's Battlegrounds Mobile</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/pubgm/screenshot-lobby-1.jpg" alt="DikDns PlayerUnknown's Battlegrounds Mobile in the Lobby with open Inventory UI Screenshot" >
-                <p class="description-image">DikDns nyantui di lobi sekaligus pamer barang - barangnya.</p>
+                <p class="description-image">DikDns staying on the lobby and showing his items.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/pubgm/screenshot-tier-1.jpg" alt="DikDns PlayerUnknown's Battlegrounds Mobile Rank Screenshot" >
-                <p class="description-image">DikDns ketika dia mencapai pangkat Ace.</p>
+                <p class="description-image">DikDns when he achieve the Ace Rank.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/pubgm/screenshot-matchresult-1.jpg" alt="DikDns PlayerUnknown's Battlegrounds Mobile Match Result with 20+ kills Screenshot" >
-                <p class="description-image">DikDns dan para rekan satu timnya meraih chicken dinner ketika pertama kali pembaharuan peta Vikendi.</p>
+                <p class="description-image">DikDns and his teammates got chicken dinner on the first update Vikendi Map.</p>
             </div>
         </section>
 
@@ -223,7 +178,7 @@
             <h2 class="title-section">Roblox</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/roblox/screenshot-profile-1.jpg" alt="DikDns Roblox Profile Screenshot Image" >
-                <p class="description-image">Halaman profil utama DikDns, kamu bisa klik <a href="https://www.roblox.com/users/108719082/profile" target="_blank">disini</a> untuk lihat sendiri.</p>
+                <p class="description-image">DikDns main profile page, you can click <a href="https://www.roblox.com/users/108719082/profile" target="_blank">here</a> to see it by your self.</p>
             </div>
         </section>
 
@@ -233,15 +188,15 @@
             <h2 class="title-section">Sky: Children of the Light</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/sky-children-of-the-light/screenshot-prolog-1.jpg" alt="DikDns Sky: Children of the Light Screenshot Image 1" >
-                <p class="description-image">DikDns menunggangi salah satu makhluk di tahap awal.</p>
+                <p class="description-image">DikDns riding one of the creature on the beginning stage.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/sky-children-of-the-light/screenshot-secretarea-1.jpg" alt="DikDns Sky: Children of the Light Screenshot Image 2" >
-                <p class="description-image">DikDns nyantui di daerah rahasia.</p>
+                <p class="description-image">DikDns relax on the secret area.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/sky-children-of-the-light/screenshot-ending-1.jpg" alt="DikDns Sky: Children of the Light Screenshot Image 3" >
-                <p class="description-image">DikDns hampir menuju akhir dari gamenya.</p>
+                <p class="description-image">DikDns almost reached the ending of the game.</p>
             </div>
         </section>
 
@@ -251,19 +206,19 @@
             <h2 class="title-section">Stardew Valley</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/stardew-valley/screenshot-farmhouse-1.png" alt="DikDns Stardew Valley House Screenshot Image" >
-                <p class="description-image">Keluarga DikDns berada di dalam rumah pertaniannya.</p>
+                <p class="description-image">DikDns family staying inside his farm house.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/stardew-valley/screenshot-greenhouse-1.png" alt="DikDns Stardew Valley Greenhouse Screenshot Image" >
-                <p class="description-image">DikDns memamerkan rumah kacanya yang penuh dengan Buah Purba.</p>
+                <p class="description-image">DikDns showing off his Gardenhouse full of Ancient Fruits.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/stardew-valley/screenshot-farm-1.png" alt="DikDns Stardew Valley Farm Screenshot Image 1" >
-                <p class="description-image">DikDns memamerkan pertanian semi-otomatisnya yang luas.</p>
+                <p class="description-image">DikDns showing off his large semi-automatic farm.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/stardew-valley/screenshot-farm-2.png" alt="DikDns Stardew Valley Farm Screenshot Image 2" >
-                <p class="description-image">DikDns memamerkan peternakan ikan dan trufflenya.</p>
+                <p class="description-image">DikDns showing off his truffle and fish farm.</p>
             </div>
         </section>
 
@@ -273,11 +228,11 @@
             <h2 class="title-section">Toram Online</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/toram-online/screenshot-event-1.jpg" alt="DikDns Toram Online Event Screenshot Image" >
-                <p class="description-image">DikDns dengan para panitia perlombaan.</p>
+                <p class="description-image">DikDns with the event committee.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/toram-online/screenshot-housing-1.jpg" alt="DikDns Toram Online Housing Screenshot Image" >
-                <p class="description-image">DikDns berdiri di depan rumahnya.</p>
+                <p class="description-image">DikDns standing in front of his house.</p>
             </div>
         </section>
 
@@ -287,11 +242,11 @@
             <h2 class="title-section">VOEZ</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/voez/screenshot-profile-1.jpg" alt="DikDns VOEZ Profile Screenshot Image" >
-                <p class="description-image">DikDns profil akun utamanya.</p>
+                <p class="description-image">DikDns main account profile.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/voez/screenshot-profile-2.jpg" alt="DikDns VOEZ google play Profile Screenshot Image" >
-                <p class="description-image">DikDns profil di Google Play Games.</p>
+                <p class="description-image">DikDns profile on the Google Play Games.</p>
             </div>
         </section>
 
@@ -301,31 +256,34 @@
             <h2 class="title-section">DikDns Logo</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/logo/design-logo-1.png" alt="DikDns Logo D-S Shape with lightblue foreground Image" >
-                <p class="description-image">Logo aktual DikDns(2020) didesain dari huruf D dan S yang merupakan singkatan dari DikdnS.</p>
+                <p class="description-image">Current logo(2020) that's designed from letter D and S which stand for DikdnS.</p>
             </div>
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/logo/design-oldlogo-1.png" alt="DikDns Logo D-S Shape with blue foreground Image" >
-                <p class="description-image">Logo lawas(2018).</p>
+                <p class="description-image">DikDns Old logo(2018).</p>
             </div>
         </section>
 
-
+        <section id="offline" class="main-section">
+            <h2 class="title-section">Offline Banner</h2 class="title-section">
+            <div class="panel-image">
+                <img class="image" loading="lazy" src="img/offline/highlight-offline-1.gif" alt="Offline text with dot animation" >
+                <p class="description-image">Offline...</p>
+            </div>
+        </section>
 
         <section id="andika-eka-kurnia"  class="main-section">
             <h2 class="title-section">Andika Eka Kurnia</h2 class="title-section">
             <div class="panel-image">
                 <img class="image" loading="lazy" src="img/andika-eka-kurnia/photo-self-1.png" alt="Andika eka kurnia show his funny face with a thumbs-up" >
-                <p class="description-image">Dia melihat sesuatu yang aneh disatu sisi itu juga menarik.</p>
+                <p class="description-image">He saw something weird but that's also interesting.</p>
             </div>
         </section>
 
     </main>
-
-
-
-    
-
-
+    `,
+    // FOOTER SECTION
+    footer: `<!-- FOOTER SECTION -->
     <footer id="footer" class="footer">
         <section class="footer-section footer-copyright">
             <p class="desc-footer">This is a non-profit project, all of those image are copyright to it's own source.</p>
@@ -335,19 +293,30 @@
             <a target="_blank" href="https://twitter.com/dik_dns" class="link">Twitter <i class="fab fa-twitter-square"></i></a>
             <a target="_blank" href="https://www.instagram.com/dikdns/" class="link">Instagram <i class="fab fa-instagram-square"></i></a>
             <a target="_blank" href="mailto:dikdnssocial@gmail.com" class="link">Send Email <i class="far fa-paper-plane"></i></a>
-            <a href="../id" class="link">Home <i class="fas fa-house-user"></i></a>
-            <a href="/about/id" class="link">About <i class="fas fa-info-circle"></i></a>
-            <a href="/suggestion/id" class="link">Suggestion <i class="fas fa-comment-alt"></i></a>
-            <a href="/andika-eka-kurnia/id" class="link">Andika Eka Kurnia <i class="fas fa-user-circle"></i></a>
+            <a href="../" class="link">Home <i class="fas fa-house-user"></i></a>
+            <a href="/about" class="link">About <i class="fas fa-info-circle"></i></a>
+            <a href="/suggestion" class="link">Suggestion <i class="fas fa-comment-alt"></i></a>
+            <a href="/andika-eka-kurnia" class="link">Andika Eka Kurnia <i class="fas fa-user-circle"></i></a>
             <a href="#" class="link">Top Page <i class="fas fa-angle-double-up"></i></a>
         </section>
         <!-- <i class="fas fa-house-user"></i> -->
         <section class="footer-section footer-version">
-            <p>Version 1.2</p>
+            <p>Patch 2.0</p>
         </section>
     </footer>
+    `,
+
+    js: `
+    <script src="js/main.js"></script>
+    `
+
+};
 
 
-    <script src="js/script.js"></script>
-</body>
-</html>
+
+const pageEn = `
+${EnglishPage.nav}
+${EnglishPage.main}
+${EnglishPage.footer}
+${EnglishPage.js}
+`;
