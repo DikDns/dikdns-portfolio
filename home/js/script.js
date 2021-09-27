@@ -7,12 +7,12 @@ const navLink = document.querySelector('.nav .nav-link');
 const langBtn = document.querySelector(".lang-button");
 const langList = document.querySelector(".lang-dropdown .list");
 const langArrow = document.querySelector('.lang-button .arrow-icon');
-
+// Bubble Selector
+// const body = document.querySelector('body');
 
 
 //! NAV script
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
     // To check if the user active the menu hamburger it will not slide to top
     if  (!document.querySelector('.nav-link').classList.contains('slide')){
@@ -24,7 +24,23 @@ function scrollFunction() {
     }
 }
 
+// body.addEventListener('click', function(e) {
+    
+//     //! Hamburger Menu Conditions
+//     if(e.target.classList.contains('btn-toggle')){
+//         console.log(e.target.parentElement.parentElement);
+//         // To remove active class when user close the navLink
+//         if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250){
+//             navLink.classList.toggle('slide');
+//         } else {
+//             if (navLink.classList.contains('slide')){
+//                 nav.classList.remove('active');
+//                 navLink.classList.toggle('slide');
+//             }
+//         }
+//     }
 
+// });
 
 //! Hamburger Menu Script
 menuToggle.addEventListener('click', function(){
