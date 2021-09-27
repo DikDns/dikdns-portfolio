@@ -1,45 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contains interesting information about DikDns and what game he currently playing?">
-    <meta name="keywords" content="dikdns, portfolio, page, wild, rift, osu!, minecraft, java, edition">
-
-    
-    <!-- OpenGraph -->
-    <meta property="og:title" content="DikDns Portfolio Web" />
-    <meta property="og:description" content="Contains information about DikDns!" />
-    <meta property="og:url" content="https://dikdns.github.io" />
-    <meta property="og:type" content="website" />
-    
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="documentation/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="documentation/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="documentation/favicon/favicon-16x16.png">
-    <link rel="manifest" href="documentation/favicon/site.webmanifest">
-
-    
-    <title>DikDns</title>
-
-    <!-- CSS Reset -->
-    <link rel="stylesheet" href="home/css/reset.css">
-
-    <!-- My CSS -->
-    <link rel="stylesheet" href="home/css/style.css">
-    <link rel="stylesheet" href="home/css/animation.css">
-    <link rel="stylesheet" href="home/css/important.css">
-    
-    <!-- AwesomeFonts Kit Code -->
-    <script src="https://kit.fontawesome.com/89851fc4a2.js" crossorigin="anonymous"></script>
-
-    <!-- CONTENT LANGUAGE -->
-    <script src="home/content/en.js"></script>
-    <script src="home/content/id.js"></script>
-</head>
-<body>
-
+// HTML Page Object
+const IndonesiaPage = {
+    // NAV SECTION
+    nav: `<!-- NAV SECTION -->
     <nav id="nav" class="nav">
 
         <div class="nav-box">
@@ -88,7 +50,9 @@
         </div>
 
     </nav>
-
+    `,
+    // MAIN SECTION
+    main: `<!-- MAIN SECTION -->
     <main id="main" class="main">
         <section class="main-section section-header" id="header-page">
             <img class="profile-image" src="documentation/img/logo/design-logo-1.png" alt="DikDns Logo Image">
@@ -108,7 +72,9 @@
             <p class="desc-section">Tidak perlu sungkan untuk menghubungi akun media sosialku di bawah laman ini.</p>
         </section>
     </main>
-
+    `,
+    // FOOTER SECTION
+    footer: `<!-- FOOTER SECTION -->
     <footer id="footer" class="footer">
         <section class="footer-section footer-copyright">
             <p class="desc-footer">This is a non-profit project, all of those image are copyright to it's own source.</p>
@@ -128,8 +94,20 @@
             <p>Patch 2.0</p>
         </section>
     </footer>
+    `,
 
+    js: `
     <script src="home/js/main.js"></script>
     <script src="home/js/script.js"></script>
-</body>
-</html>
+    `
+
+};
+
+
+
+const pageId = `
+${IndonesiaPage.nav}
+${IndonesiaPage.main}
+${IndonesiaPage.footer}
+${IndonesiaPage.js}
+`;

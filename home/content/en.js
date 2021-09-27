@@ -3,17 +3,17 @@ const EnglishPage = {
     // NAV SECTION
     nav: `<!-- NAV SECTION -->
     <nav id="nav" class="nav">
-    
+
         <div class="nav-box">
             <div class="nav-header">
                 <h2>DikDns</h2>
             </div>
-    
+
             <div class="nav-lang">
                 <div class="lang-dropdown">
                     <button class="lang-button"><i class="fas fa-globe"></i> En <i class="fas fa-caret-right arrow-icon"></i></button>
                     <div class="list">
-                        <a id="lang" class="list-item" href="#">Bahasa Indonesia</a>
+                        <a id="lang" class="list-item switch-lang" href="#">Bahasa Indonesia</a>
                     </div>
                 </div>
             </div>
@@ -41,14 +41,14 @@ const EnglishPage = {
                 </li>
             </ul>
         </div>
-    
+
         <div class="nav-menu-toggle">
             <input class="btn-toggle" type="checkbox">
             <span></span>
             <span></span>
             <span></span>
         </div>
-    
+
     </nav>
     `,
     // MAIN SECTION
