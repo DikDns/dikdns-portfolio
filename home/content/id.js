@@ -13,7 +13,7 @@ const IndonesiaPage = {
                 <div class="lang-dropdown">
                     <button class="lang-button"><i class="fas fa-globe"></i> Id <i class="fas fa-caret-right arrow-icon"></i></button>
                     <div class="list">
-                        <a id="lang" class="list-item switch-lang" href="#">English</a>
+                        <a id="lang" class="list-item switch-lang" href="#game-on-playing">English</a>
                     </div>
                 </div>
             </div>
