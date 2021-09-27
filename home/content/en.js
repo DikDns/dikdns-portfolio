@@ -100,10 +100,18 @@ const EnglishPage = {
     </footer>
     `,
 
-    js: ``
+    js: `
+    <script src="home/js/main.js"></script>
+    <script src="home/js/script.js"></script>
+    `
 
 };
 
 
 
-const pageEn = ``;
+const pageEn = `
+${EnglishPage.nav}
+${EnglishPage.main}
+${EnglishPage.footer}
+${EnglishPage.js}
+`;
