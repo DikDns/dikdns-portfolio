@@ -102,7 +102,6 @@ const EnglishPage = {
 
     js: `
     <script src="home/js/main.js"></script>
-    <script src="home/js/script.js"></script>
     `
 
 };
