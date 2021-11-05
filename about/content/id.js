@@ -74,7 +74,7 @@ const IndonesiaPage = {
             <h2 class="title-section">Orang Dibaliknya?</h2>
             <div class="description-container">
                 <p class="desc-section">Kamu telah membaca namanya dan mungkin kamu telah mengenal dia sebelumnya, tapi– ya Andika Eka Kurnia adalah salah satu orang yang saat ini menggunakan nama pengguna ini.</p>
-                <p class="desc-section">Baiklah aku tidak mau membicarakan dia panjang lebar. Tetapi jika kamu penasaran, kamu bisa cek laman dia. Tinggal klik <a target="_blank" href="/andika-eka-kurnia/id">disini</a> untuk mengunjungi, aku tidak mau membuat pranala itu menjadi lebih besar.</p>
+                <p class="desc-section">Baiklah aku tidak mau membicarakan dia panjang lebar. Tetapi jika kamu penasaran, kamu bisa cek laman dia. Tinggal klik <a target="_blank" href="/andika-eka-kurnia">disini</a> untuk mengunjungi, aku tidak mau membuat pranala itu menjadi lebih besar.</p>
             </div>
         </section>
 
