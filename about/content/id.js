@@ -101,7 +101,7 @@ const IndonesiaPage = {
                 <li class="timeline"><strong>2021</strong> – <i class="icons fas fa-dharmachakra"></i> Dia telah sangat fokus di Honkai Impact 3rd karena teman dekatnya.</li>
                 <li class="timeline"><strong>NOW</strong> – <i class="icons fas fa-clock"></i> Wah, kamu masih disini??? Makasih! Sayangnya, dia masih luring untuk beberapa tahun dari hari pertama di bulan Oktober, 2021 ini.</li>
             </ul>
-            <p class="desc-section">Klik <a href="/documentation/id">disini</a> untuk melihat dokumentasi setiap gim yang dia pernah mainkan.</p>
+            <p class="desc-section">Klik <a href="/documentation">disini</a> untuk melihat dokumentasi setiap gim yang dia pernah mainkan.</p>
         </section>
     </main>
     `,
