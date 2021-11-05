@@ -77,6 +77,7 @@ const EnglishPage = {
     
     </main>
     `,
+    
     // FOOTER SECTION
     footer: `<!-- FOOTER SECTION -->
     <footer id="footer" class="footer">
@@ -111,6 +112,7 @@ const EnglishPage = {
 const pageEn = `
 ${EnglishPage.nav}
 ${EnglishPage.main}
+${EnglishPage.suggestLang}
 ${EnglishPage.footer}
 ${EnglishPage.js}
 `;

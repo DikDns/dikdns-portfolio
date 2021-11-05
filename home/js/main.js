@@ -16,13 +16,13 @@ html.addEventListener('click', function(e){
     if (e.target.classList.contains('switch-lang')) {
         const lang = html.attributes.getNamedItem('lang').value;
 
-        if (lang === 'en'){
-            body.innerHTML = pageId;
-            html.setAttribute('lang', 'id');
-        } else if (lang === 'id') {
-            body.innerHTML = pageEn;
-            html.setAttribute('lang', 'en');
-        }
+        // if (lang === 'en'){
+        //     body.innerHTML = pageId;
+        //     html.setAttribute('lang', 'id');
+        // } else if (lang === 'id') {
+        //     body.innerHTML = pageEn;
+        //     html.setAttribute('lang', 'en');
+        // }
     }
     
 
