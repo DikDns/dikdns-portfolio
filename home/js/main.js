@@ -1,13 +1,13 @@
 const html = document.querySelector('html');
 const body = document.querySelector('body');
 
-// if (window.navigator.language === 'id'){
-//     body.innerHTML = pageId;
-//     html.setAttribute('lang', 'id');
-// } else {
-//     body.innerHTML = pageEn;
-//     html.setAttribute('lang', 'en');
-// }
+if (window.navigator.language === 'id'){
+    body.innerHTML = pageId;
+    html.setAttribute('lang', 'id');
+} else {
+    body.innerHTML = pageEn;
+    html.setAttribute('lang', 'en');
+}
 
 html.addEventListener('click', function(e){
 
