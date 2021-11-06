@@ -117,7 +117,6 @@ const EnglishPage = {
 const pageEn = `
 ${EnglishPage.nav}
 ${EnglishPage.main}
-${EnglishPage.suggestLang}
 ${EnglishPage.footer}
 ${EnglishPage.js}
 `;

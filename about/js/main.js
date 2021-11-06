@@ -9,6 +9,17 @@ if (window.navigator.language === 'id'){
     html.setAttribute('lang', 'en');
 }
 
+
+// Suggestion Language Pop-up
+setTimeout(function(){
+    body.querySelector(".suggest-lang").classList.add('pop-up');
+}, 5000)
+
+setTimeout(function(){
+    body.querySelector(".suggest-lang").classList.remove('pop-up');
+}, 55000)
+
+
 html.addEventListener('click', function(e){
 
     console.log(e.target);
@@ -37,6 +48,8 @@ html.addEventListener('click', function(e){
     if (e.target.classList.contains('lang-button')) {
         // Show The List of Different Lang
         document.querySelector(".lang-dropdown .list").classList.toggle("show-the-link");
+        // Remove the pop-up class
+        body.querySelector(".suggest-lang").classList.remove('pop-up');
         // Trigger the arrow animation
         document.querySelector('.lang-button .arrow-icon').classList.toggle("arrow-rotate");
     }

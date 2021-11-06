@@ -27,3 +27,8 @@
     /* Change direction of arrow icons when focused */
     transform: rotate(90deg);
 }
+
+/*! Class for the Suggestion Language Pop-Up */
+.pop-up {
+    display: flex;
+}
