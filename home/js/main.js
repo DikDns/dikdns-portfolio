@@ -1,13 +1,13 @@
 const html = document.querySelector('html');
 const body = document.querySelector('body');
 
-if (window.navigator.language === 'id'){
-    body.innerHTML = pageId;
-    html.setAttribute('lang', 'id');
-} else {
-    body.innerHTML = pageEn;
-    html.setAttribute('lang', 'en');
-}
+// if (window.navigator.language === 'id'){
+//     body.innerHTML = pageId;
+//     html.setAttribute('lang', 'id');
+// } else {
+//     body.innerHTML = pageEn;
+//     html.setAttribute('lang', 'en');
+// }
 
 html.addEventListener('click', function(e){
 
@@ -16,13 +16,13 @@ html.addEventListener('click', function(e){
     if (e.target.classList.contains('switch-lang')) {
         const lang = html.attributes.getNamedItem('lang').value;
 
-        // if (lang === 'en'){
-        //     body.innerHTML = pageId;
-        //     html.setAttribute('lang', 'id');
-        // } else if (lang === 'id') {
-        //     body.innerHTML = pageEn;
-        //     html.setAttribute('lang', 'en');
-        // }
+        if (lang === 'en'){
+            body.innerHTML = pageId;
+            html.setAttribute('lang', 'id');
+        } else if (lang === 'id') {
+            body.innerHTML = pageEn;
+            html.setAttribute('lang', 'en');
+        }
     }
     
 

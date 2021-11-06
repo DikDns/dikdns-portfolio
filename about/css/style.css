@@ -141,7 +141,7 @@ html {
 .list {
     /** List of the Language */
     /* Fonts */
-    text-align: left;
+    text-align: center;
 
     /* Colors */
     background-color: var(--color5);
