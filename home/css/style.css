@@ -320,7 +320,7 @@ html {
 /** Suggest Language **/
 .suggest-lang {
     /* Layouts */
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     position: absolute;
@@ -347,7 +347,6 @@ html {
     /* Layers */
     z-index: 2;
 }
-
 
 
 
