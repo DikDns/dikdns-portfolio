@@ -49,6 +49,11 @@ const IndonesiaPage = {
             <span></span>
         </div>
 
+        <div class="suggest-lang" id="suggest-lang">
+            <i class="fas fa-play"></i>
+            <p>Change Language?</p>
+        </div>
+
     </nav>
     `,
     // MAIN SECTION

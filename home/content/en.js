@@ -49,6 +49,11 @@ const EnglishPage = {
             <span></span>
         </div>
 
+        <div class="suggest-lang" id="suggest-lang">
+            <i class="fas fa-play"></i>
+            <p>Ubah Bahasa?</p>
+        </div>
+
     </nav>
     `,
     // MAIN SECTION
