@@ -415,17 +415,19 @@ html {
 /** Background **/
 .description-container .desc-section:nth-child(1) {
     /* Layouts */
-    text-align: left;
+    text-align: justify;
     width: 364px;
     margin: 0;
     margin-left: auto;
+    padding-right: 20px;
 }
 
 .description-container .desc-section:nth-child(2) {
     /* Layouts */
-    text-align: left;
+    text-align: justify;
     width: 364px;
     margin: 0;
+    padding-left: 20px;
     margin-right: auto;
 }
 
@@ -717,12 +719,14 @@ html {
     .description-container .desc-section:nth-child(1) {
         /* Layouts */
         width: 85vw;
+        padding-right: 0;
         margin: 0 auto 16px;
     }
     
     .description-container .desc-section:nth-child(2) {
         /* Layouts */
         width: 85vw;
+        padding-left: 0;
         margin: 0 auto 16px;
     }
     
@@ -828,6 +832,10 @@ html {
 
 
     /*! MAIN CSS */
+    .title-section {
+        line-height: 40px;
+    }
+
     .game-image {
         /* Layouts */
         width: 400px;
@@ -835,7 +843,7 @@ html {
 
     .desc-section {
         /* Layouts */
-        width: 372px;
+        width: 90vw;
     }
 
 
