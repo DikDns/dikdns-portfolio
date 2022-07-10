@@ -1,0 +1,23 @@
+{
+  "name": "dikdns.com",
+  "version": "3.0.0-alpha",
+  "description": "Information about DikDns and his works",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DikDns/dikdns.com.git"
+  },
+  "keywords": [
+    "dikdns",
+    "portfolio"
+  ],
+  "author": "DikDns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DikDns/dikdns.com/issues"
+  },
+  "homepage": "https://github.com/DikDns/dikdns.com#readme"
+}
