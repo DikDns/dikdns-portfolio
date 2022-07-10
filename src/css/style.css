@@ -1,3 +1,80 @@
+:root {
+	--color-primary: #00e6f6;
+	--color-secondary: #082a3a;
+	--color-fg1: #ffffff;
+	--color-fg2: #1f6cab;
+	--color-bg: #031016;
+}
+
+body {
+	background-color: var(--color-bg);
+}
+
+.heading {
+	height: 100vh;
+}
+
 .logo {
-	width: 200px;
+	width: 180px;
+	background: #031016;
+	box-shadow: 20px 20px 30px #020b0f, -20px -20px 30px #04151d;
+}
+
+.bg-circle {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-radius: 50%;
+	background-color: var(--color-fg2);
+	z-index: -1000;
+}
+
+.bg-circle-1 {
+	box-shadow: 0 0 60px 10px var(--color-fg2), 0 0 100px 30px var(--color-fg2),
+		0 0 140px 40px var(--color-fg2);
+	top: 160px;
+	right: 100px;
+}
+
+.bg-circle-2 {
+	box-shadow: 0 0 60px 5px var(--color-fg2), 0 0 100px 10px var(--color-fg2),
+		0 0 140px 30px var(--color-fg2);
+	bottom: 100px;
+	left: 0px;
+}
+
+@media screen and (min-width: 700px) {
+	.bg-circle-1 {
+		box-shadow: 0 0 60px 10px var(--color-fg2), 0 0 100px 20px var(--color-fg2),
+			0 0 140px 60px var(--color-fg2);
+		top: 160px;
+		right: 100px;
+	}
+
+	.bg-circle-2 {
+		box-shadow: 0 0 60px 30px var(--color-fg2), 0 0 100px 40px var(--color-fg2),
+			0 0 140px 60px var(--color-fg2);
+		bottom: 190px;
+		left: 0px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.bg-circle-1 {
+		box-shadow: 0 0 60px 30px var(--color-fg2), 0 0 100px 60px var(--color-fg2),
+			0 0 140px 100px var(--color-fg2);
+		top: 160px;
+		right: 100px;
+	}
+
+	.bg-circle-2 {
+		box-shadow: 0 0 60px 30px var(--color-fg2), 0 0 100px 80px var(--color-fg2),
+			0 0 140px 120px var(--color-fg2);
+		bottom: 190px;
+		left: 0px;
+	}
+}
+
+.text-light {
+	color: var(--color-fg1) !important;
 }
