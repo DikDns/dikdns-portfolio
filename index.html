@@ -55,44 +55,498 @@
 	</head>
 	<body>
 		<!-- ! MAIN -->
-		<main class="container">
-			<header class="heading row">
-				<div class="bg-circle bg-circle-1"></div>
-				<div class="bg-circle bg-circle-2"></div>
+		<main>
+			<!-- ! HEADER -->
+			<div class="container mb-4">
+				<header class="heading row mb-2">
+					<div class="bg-circle bg-circle-1"></div>
+					<div class="bg-circle bg-circle-2"></div>
 
-				<div
-					class="col text-center d-flex flex-column align-items-center justify-content-center"
-				>
-					<img
-						class="logo rounded-circle"
-						src="./src/images/logo.png"
-						alt="Logo DikDns"
-					/>
-					<h1 class="mt-5 text-light">DikDns</h1>
-					<p class="text-light">current concern: last year of high school.</p>
-				</div>
-			</header>
-
-			<div class="portfolio row">
-				<h2 class="text-center text-light">Portfolio</h2>
-				<div class="col-lg-4 my-3">
-					<div class="card">
+					<div
+						class="col text-center d-flex flex-column align-items-center justify-content-center"
+					>
 						<img
-							src="./src/images/potrait.jpg"
-							class="card-img-top"
-							alt="..."
+							class="logo rounded-circle"
+							src="./src/images/logo.png"
+							alt="Logo DikDns"
 						/>
-						<div class="card-body">
-							<h5 class="card-title">React Projects</h5>
-							<p class="card-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								Quisquam ipsam ducimus in tenetur reiciendis molestiae iusto.
-							</p>
-							<a href="#" class="btn btn-primary fw-bold">Open Page</a>
+						<h1 class="mt-5 text-light">DikDns</h1>
+						<p class="text-light">current concern: last year of high school.</p>
+					</div>
+				</header>
+			</div>
+			<!-- ! END OF HEADER -->
+
+			<!-- ! PORTFOLIO -->
+			<div class="portfolio">
+				<div class="container mb-4">
+					<div class="portfolio row mb-2">
+						<h2 class="text-center text-light">Portfolio</h2>
+						<hr class="text-light border-2 mt-2 mb-4" />
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/discordjs-project-1.jpg"
+									class="card-img-top"
+									alt="thumbnail of discord js project"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">SITCOM Discord Bot</h5>
+									<p class="card-text">
+										A simple discord bot with discord.js for our Student
+										Information Technology Community Smanda Server.
+									</p>
+									<a
+										href="https://github.com/sitcomsmanda/sitcom-discord-bot"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Repository
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<video
+									src="./src/videos/arduino-project-1.mp4"
+									poster="./src/images/thumb/arduino-project-1.jpg"
+									class="card-img-top"
+									autoplay
+									muted
+									loop
+									height="280"
+								>
+									Sorry, your browser doesn't support embedded videos, but don't
+									worry, you can
+									<a href="./src/videos/arduino-project-1.mp4" download
+										>download it</a
+									>
+									and watch it with your favorite video player!
+								</video>
+								<div class="card-body">
+									<h5 class="card-title">Beginner Arduino</h5>
+									<p class="card-text">
+										Learning the basics of Electronics and Micro Controller with
+										Arduino.
+									</p>
+									<a
+										href="https://github.com/DikDns/arduino-basics"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Repository
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/react-project-1.jpg"
+									class="card-img-top"
+									alt="thumbnail of react project 1"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">React Facts</h5>
+									<p class="card-text">
+										Learning basic JSX and rendering state by creating a
+										dark-light theme toggle.
+									</p>
+									<a
+										href="https://react-project-1.dikdns.com"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/react-project-2.jpg"
+									class="card-img-top"
+									alt="thumbnail of react project 2"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Business Card</h5>
+									<p class="card-text">
+										Learning basic JSX and rendering state by making a business
+										card.
+									</p>
+									<a
+										href="https://react-project-2.dikdns.com"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/react-project-3.jpg"
+									class="card-img-top"
+									alt="thumbnail of react project 3"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Airbnb Cards</h5>
+									<p class="card-text">
+										Learning on how to render my own custom components with
+										react.
+									</p>
+									<a
+										href="https://react-project-3.dikdns.com"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/react-project-4.jpg"
+									class="card-img-top"
+									alt="thumbnail of react project 4"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">React Facts</h5>
+									<p class="card-text">
+										Another custom components, but this time making my travel
+										journal site.
+									</p>
+									<a
+										href="https://react-project-4.dikdns.com"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/react-project-5.jpg"
+									class="card-img-top"
+									alt="thumbnail of react project 5"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Meme Generator</h5>
+									<p class="card-text">
+										Handling react state by making a meme generator with an open
+										rest api.
+									</p>
+									<a
+										href="https://react-project-5.dikdns.com"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/react-project-6.jpg"
+									class="card-img-top"
+									alt="thumbnail of react project 6"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Notes App</h5>
+									<p class="card-text">
+										Handling complex state by making a notes web app.
+									</p>
+									<a
+										href="https://react-project-6.dikdns.com"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/fcc-project-1.jpg"
+									class="card-img-top"
+									alt="thumbnail of fcc project 1"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Soekarno Tribute Page</h5>
+									<p class="card-text">
+										Learning responsive web design in FreeCodeCamp by creating a
+										tribute page.
+									</p>
+									<a
+										href="https://codepen.io/dikdns/full/GRrZGjz"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/fcc-project-2.jpg"
+									class="card-img-top"
+									alt="thumbnail of fcc project 2"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Muse ID Survey Forms</h5>
+									<p class="card-text">
+										Learning responsive web design in FreeCodeCamp by creating a
+										survey forms.
+									</p>
+									<a
+										href="https://codepen.io/dikdns/full/BapzeBq"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/fcc-project-3.jpg"
+									class="card-img-top"
+									alt="thumbnail of fcc project 3"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Simple JavaScript Documentation</h5>
+									<p class="card-text">
+										Learning responsive web design in FCC by making a simple
+										technical documentation.
+									</p>
+									<a
+										href="https://codepen.io/dikdns/full/YzNLXgx"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/fcc-project-4.jpg"
+									class="card-img-top"
+									alt="thumbnail of fcc project 4"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">Product Landing Page</h5>
+									<p class="card-text">
+										Learning responsive web design in FCC by creating a product
+										landing page.
+									</p>
+									<a
+										href="https://codepen.io/dikdns/full/BapwvmO"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/fcc-project-5.jpg"
+									class="card-img-top"
+									alt="thumbnail of fcc project 5"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">DikDns Portfolio Page</h5>
+									<p class="card-text">
+										Learning responsive web design in FCC by creating a
+										portfolio page.
+									</p>
+									<a
+										href="https://codepen.io/dikdns/full/eYgrJqP"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+
+						<!-- ! CARD -->
+						<div class="col-md-4 my-3">
+							<div class="card overflow-hidden">
+								<img
+									src="./src/images/thumb/css-project-1.jpg"
+									class="card-img-top"
+									alt="thumbnail of css projects"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">CSS Projects</h5>
+									<p class="card-text">
+										My projects when I learn Cascading Style Sheets back then.
+									</p>
+									<a
+										href="https://css-project.dikdns.com"
+										class="btn btn-primary fw-bold"
+										target="_blank"
+									>
+										<i class="fa-solid fa-arrow-up-right-from-square me-1"></i>
+										Open Page
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- ! END OF CARD -->
+					</div>
+				</div>
+			</div>
+			<!-- ! END OF PORTFOLIO -->
+
+			<!-- ! CONTACTS -->
+			<div class="contacts">
+				<div class="container">
+					<div class="row">
+						<h2 class="text-center text-light">Contacts</h2>
+						<hr class="text-light border-2 mt-2 mb-4" />
+
+						<div class="col-sm-4 text-center mb-5">
+							<a
+								href="mailto:dikdnssocial@gmail.com"
+								class="social-card fs-1 text-light text-decoration-none"
+								target="_blank"
+							>
+								<i class="fa-regular fa-envelope"></i>
+							</a>
+						</div>
+
+						<div class="col-sm-4 text-center mb-5">
+							<a
+								href="https://github.com/dikdns"
+								class="social-card fs-1 text-light text-decoration-none"
+								target="_blank"
+							>
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</div>
+
+						<div class="col-sm-4 text-center mb-5">
+							<a
+								href="https://www.linkedin.com/in/andika-eka-kurnia-4960a5231/"
+								class="social-card fs-1 text-light text-decoration-none"
+								target="_blank"
+							>
+								<i class="fa-brands fa-linkedin"></i>
+							</a>
+						</div>
+
+						<div class="col-sm-4 text-center mb-5">
+							<a
+								href="https://instagram.com/dikdns"
+								class="social-card fs-1 text-light text-decoration-none"
+								target="_blank"
+							>
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+						</div>
+
+						<div class="col-sm-4 text-center mb-5">
+							<a
+								href="https://twitter.com/dikdns_"
+								class="social-card fs-1 text-light text-decoration-none"
+								target="_blank"
+							>
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+						</div>
+
+						<div class="col-sm-4 text-center mb-5">
+							<a
+								href="https://discordapp.com/users/168393351186481153"
+								class="social-card fs-1 text-light text-decoration-none"
+								target="_blank"
+							>
+								<i class="fa-brands fa-discord"></i>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
+			<!-- ! END OF CONTACTS -->
+
+			<!-- ! FOOTER -->
+			<footer>
+				<p class="fs-4 text-light text-center">&copy; DikDns 2022</p>
+			</footer>
+			<!-- ! END OF FOOTER -->
 		</main>
 		<!-- ! END OF MAIN -->
 
