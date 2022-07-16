@@ -138,15 +138,11 @@ body {
 
 .contacts {
 	padding-bottom: 100px;
-	background-color: var(--color-bg1);
-	background-image: radial-gradient(at 45% 50%, #031016e5 0, transparent 80%),
-		radial-gradient(at 45% 45%, var(--color-fg2) 0, transparent 30%);
 }
 
 footer {
 	overflow: hidden;
 	box-sizing: border-box;
-	background-color: var(--color-secondary);
 	padding: 20px;
 }
 
