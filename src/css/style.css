@@ -18,13 +18,13 @@ body {
 h1 {
   font-family: "Archivo", sans-serif;
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 h2 {
   font-family: "Archivo", sans-serif;
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 header {
@@ -38,13 +38,15 @@ header {
   position: absolute;
   bottom: 0;
   display: flex;
-  gap: 25px;
+  gap: 64px;
   margin: 1.5rem 0;
 }
 
 .text-wrapper li {
   list-style: none;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
   white-space: nowrap; /* Prevent text from wrapping to the next line */
 }
