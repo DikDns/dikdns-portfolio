@@ -231,13 +231,13 @@
       const loop = horizontalLoop(items, {
         speed: 0.75,
         repeat: -1,
-        paddingRight: 25,
+        paddingRight: 64,
         ease: "elastic.out(2,0.3)",
       });
 
       ScrollTrigger.observe({
         trigger: window,
-        type: "scroll,touch",
+        type: "scroll",
         ease: "elastic.out(2,0.3)",
         onStopDelay: 0.15,
         onStop: (self) => {
