@@ -53,10 +53,10 @@
       <h2>Formally known as Andika E. Kurnia</h2>
 
       <ul class="text-wrapper">
-        <li>Outlandish Software Engineering Student</li>
-        <li>Saucy Content Creator</li>
-        <li>Full Stack Enthusiast</li>
-        <li>Entry Programmer</li>
+        <li id="text-1">Saucy Content Creator</li>
+        <li id="text-2">Entry Level Programmer</li>
+        <li id="text-3">Full Stack Enthusiast</li>
+        <li id="text-4">Outlandish Software Engineering Student</li>
       </ul>
     </header>
 
@@ -101,6 +101,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
     <script>
+      gsap.registerPlugin(ScrollTrigger);
+
       /*
       This helper function makes a group of elements animate along the x-axis in a seamless, responsive loop.
 
@@ -222,10 +224,6 @@
         }
         return tl;
       }
-    </script>
-
-    <script>
-      gsap.registerPlugin(ScrollTrigger);
 
       const items = gsap.utils.toArray(".text-wrapper li");
       const loop = horizontalLoop(items, {
